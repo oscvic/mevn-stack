@@ -5,7 +5,7 @@
       <div class="col-md-12">
         <h1 class="d-inline">Items</h1>
         <router-link :to="{ name: 'CreateItem' }" class="btn btn-primary float-right mt-2">
-          Create Item Demo
+          Create Item
         </router-link>
       </div>
     </div><br />
