@@ -66,7 +66,8 @@ export default {
       const response = confirm('are you sure you want to delete?');
       if (response) {
         let uri = 'http://localhost:4000/items/delete/'+id;
-        this.items.splice(id, 1);
+        let idx = this.items.findIndex(x => x._id === id)
+        this.items.splice(idx, 1);
         this.axios.get(uri);
       }
     }
