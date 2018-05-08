@@ -16575,7 +16575,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_CreateItem_vue__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_CreateItem_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_CreateItem_vue__);
 /* harmony namespace reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_CreateItem_vue__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_CreateItem_vue__[key]; }) }(__WEBPACK_IMPORT_KEY__));
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_2a12a601_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_CreateItem_vue__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_395ecc8e_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_CreateItem_vue__ = __webpack_require__(50);
 var normalizeComponent = __webpack_require__(2)
 /* script */
 
@@ -16592,7 +16592,7 @@ var __vue_scopeId__ = null
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
   __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_CreateItem_vue___default.a,
-  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_2a12a601_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_CreateItem_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_395ecc8e_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_CreateItem_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -27312,7 +27312,7 @@ module.exports = function() {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('h1',[_vm._v("Create An Item - OscVic")]),_vm._v(" "),_c('form',{on:{"submit":function($event){$event.preventDefault();return _vm.addItem($event)}}},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"col-md-6"},[_c('div',{staticClass:"form-group"},[_c('label',[_vm._v("Item Name:")]),_vm._v(" "),_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.item.name),expression:"item.name"}],staticClass:"form-control",attrs:{"type":"text"},domProps:{"value":(_vm.item.name)},on:{"input":function($event){if($event.target.composing){ return; }_vm.$set(_vm.item, "name", $event.target.value)}}})])])]),_vm._v(" "),_c('div',{staticClass:"row"},[_c('div',{staticClass:"col-md-6"},[_c('div',{staticClass:"form-group"},[_c('label',[_vm._v("Item Price:")]),_vm._v(" "),_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.item.price),expression:"item.price"}],staticClass:"form-control col-md-6",attrs:{"type":"text"},domProps:{"value":(_vm.item.price)},on:{"input":function($event){if($event.target.composing){ return; }_vm.$set(_vm.item, "price", $event.target.value)}}})])])]),_c('br'),_vm._v(" "),_vm._m(0)])])}
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('h1',[_vm._v("Create An Item")]),_vm._v(" "),_c('form',{on:{"submit":function($event){$event.preventDefault();return _vm.addItem($event)}}},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"col-md-6"},[_c('div',{staticClass:"form-group"},[_c('label',[_vm._v("Item Name:")]),_vm._v(" "),_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.item.name),expression:"item.name"}],staticClass:"form-control",attrs:{"type":"text"},domProps:{"value":(_vm.item.name)},on:{"input":function($event){if($event.target.composing){ return; }_vm.$set(_vm.item, "name", $event.target.value)}}})])])]),_vm._v(" "),_c('div',{staticClass:"row"},[_c('div',{staticClass:"col-md-6"},[_c('div',{staticClass:"form-group"},[_c('label',[_vm._v("Item Price:")]),_vm._v(" "),_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.item.price),expression:"item.price"}],staticClass:"form-control col-md-6",attrs:{"type":"text"},domProps:{"value":(_vm.item.price)},on:{"input":function($event){if($event.target.composing){ return; }_vm.$set(_vm.item, "price", $event.target.value)}}})])])]),_c('br'),_vm._v(" "),_vm._m(0)])])}
 var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"form-group"},[_c('button',{staticClass:"btn btn-primary"},[_vm._v("Add Item")])])}]
 var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);
